@@ -1,0 +1,13 @@
+<?php
+Route::any('image',"AdminController@image");
+Route::any('news',"AdminController@news");
+Route::any('intro',"AdminController@intro");
+Route::any('data',"AdminController@data");
+Route::any('show',"AdminController@show");
+Route::any('green_add',"AdminController@green_add");
+Route::any('delay_add',"AdminController@delay_add");
+Route::any('user_info',"AdminController@user_info");
+Route::any('dorm_book',"AdminController@dorm_book");
+Route::any('arrive',"AdminController@arrive");
+Route::any('reportcard_get',"AdminController@reportcard_get");
+Route::any('question_get',"AdminController@question_get");

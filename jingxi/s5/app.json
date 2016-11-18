@@ -1,0 +1,46 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/cart/index",
+    "pages/area/index",
+    "pages/user/index",
+    "pages/logs/logs",
+    "pages/fenclass/fenclass"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FFEFD5",
+    "navigationBarTitleText": "京西商城",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#6e6d6b",
+    "selectedColor": "#f9f027",
+    "borderStyle": "white",
+    "backgroundColor": " #FFFAF0",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath": "images/footer/1.png",
+      "selectedIconPath": "images/footer/1.png",
+      "text": "首页"
+    }, {
+      "pagePath": "pages/area/index",
+      "iconPath": "images/footer/2.png",
+      "selectedIconPath": "images/footer/2.png",
+      "text": "社区"
+    }, {
+      "pagePath": "pages/cart/index",
+      "iconPath": "images/footer/3.png",
+      "selectedIconPath": "images/footer/3.png",
+      "text": "购物车"
+    }, {
+      "pagePath": "pages/user/index",
+      "iconPath": "images/footer/1.png",
+      "selectedIconPath": "images/footer/4.png",
+      "text": "我的"
+    }]
+  },
+  "debug": true
+
+}
+

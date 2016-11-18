@@ -1,0 +1,93 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.navs {
+display: inline-flexflex;
+}
+.nav-item {
+width: 10%;
+display: inline-flex; 
+align-items: center;
+flex-direction: column;
+margin-left:25px; 
+padding: 10rpx;
+}
+.nav-item .nav-image {
+width: 50rpx;
+height: 50rpx;
+border-radius: 50%;
+}
+.nav-item text {
+padding-top: 10rpx;
+font-size: 25rpx;
+} 
+
+
+
+.zi{
+  margin-top:-10px;
+  font-size : 20px;
+}
+.kehu {
+width: 10%;
+display: inline-flex; 
+align-items: center;
+flex-direction: column;
+margin-left:30px; 
+padding:20rpx;
+}
+.kehu_zi{
+ font-size :15px;
+ margin-top:10px;
+}
+.kehu-image{
+  width: 150rpx;
+margin-left:13px;
+  height: 150rpx;
+}
+
+.jing_zi{
+  margin-top:0px;
+  font-size : 20px;
+}
+.Selected{
+  width:50px;
+display: inline-flex; 
+align-items: center;
+flex-direction: column;
+margin-left:40px; 
+padding:30rpx;
+}
+.Selected_zi{
+  margin-top:0px;
+  font-size :12px;
+}
+.Selected_image{
+  width:100px;
+margin-left:5px;
+  height:100px;
+}
+
+
+
+
+
